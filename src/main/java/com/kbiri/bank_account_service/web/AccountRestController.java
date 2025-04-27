@@ -1,15 +1,14 @@
-package com.lahssini.bank_account_service.web;
+package com.kbiri.bank_account_service.web;
 
-import com.lahssini.bank_account_service.dto.BankAccountRequestDTO;
-import com.lahssini.bank_account_service.dto.BankAccountResponseDTO;
-import com.lahssini.bank_account_service.entities.BankAccount;
-import com.lahssini.bank_account_service.mappers.AccountMapper;
-import com.lahssini.bank_account_service.repositories.BankAccountRepository;
-import com.lahssini.bank_account_service.service.AccountService;
+import com.kbiri.bank_account_service.dto.BankAccountRequestDTO;
+import com.kbiri.bank_account_service.dto.BankAccountResponseDTO;
+import com.kbiri.bank_account_service.entities.BankAccount;
+import com.kbiri.bank_account_service.mappers.AccountMapper;
+import com.kbiri.bank_account_service.repositories.BankAccountRepository;
+import com.kbiri.bank_account_service.service.AccountService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.UUID;
 
 @RestController
 @RequestMapping("/api")

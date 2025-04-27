@@ -1,4 +1,4 @@
-package com.lahssini.bank_account_service.exceptions;
+package com.kbiri.bank_account_service.exceptions;
 import graphql.ErrorClassification;
 import graphql.GraphQLError;
 import graphql.language.SourceLocation;

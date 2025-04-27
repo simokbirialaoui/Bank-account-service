@@ -1,6 +1,6 @@
-package com.lahssini.bank_account_service.entities;
+package com.kbiri.bank_account_service.entities;
 
-import com.lahssini.bank_account_service.enums.AccountType;
+import com.kbiri.bank_account_service.enums.AccountType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

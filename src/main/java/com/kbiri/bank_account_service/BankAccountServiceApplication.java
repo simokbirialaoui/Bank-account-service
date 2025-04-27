@@ -1,10 +1,10 @@
-package com.lahssini.bank_account_service;
+package com.kbiri.bank_account_service;
 
-import com.lahssini.bank_account_service.entities.BankAccount;
-import com.lahssini.bank_account_service.entities.Customer;
-import com.lahssini.bank_account_service.enums.AccountType;
-import com.lahssini.bank_account_service.repositories.BankAccountRepository;
-import com.lahssini.bank_account_service.repositories.CustomerRepository;
+import com.kbiri.bank_account_service.entities.BankAccount;
+import com.kbiri.bank_account_service.entities.Customer;
+import com.kbiri.bank_account_service.enums.AccountType;
+import com.kbiri.bank_account_service.repositories.BankAccountRepository;
+import com.kbiri.bank_account_service.repositories.CustomerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -24,7 +24,7 @@ public class BankAccountServiceApplication {
 	@Bean
 	CommandLineRunner start(BankAccountRepository bankAccountRepository, CustomerRepository customerRepository){
 		return args -> {
-			Stream.of("Mohammed","Hanane","Janat").forEach(c-> {
+			Stream.of("Mohammed","khadija","youssef").forEach(c-> {
 						Customer customer = Customer.builder()
 								.name(c)
 								.build();

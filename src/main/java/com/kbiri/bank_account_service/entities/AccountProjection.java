@@ -1,6 +1,6 @@
-package com.lahssini.bank_account_service.entities;
+package com.kbiri.bank_account_service.entities;
 
-import com.lahssini.bank_account_service.enums.AccountType;
+import com.kbiri.bank_account_service.enums.AccountType;
 import org.springframework.data.rest.core.config.Projection;
 
 @Projection(types = BankAccount.class,name = "p1")

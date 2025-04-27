@@ -1,7 +1,7 @@
-package com.lahssini.bank_account_service.repositories;
+package com.kbiri.bank_account_service.repositories;
 
-import com.lahssini.bank_account_service.entities.BankAccount;
-import com.lahssini.bank_account_service.enums.AccountType;
+import com.kbiri.bank_account_service.entities.BankAccount;
+import com.kbiri.bank_account_service.enums.AccountType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;

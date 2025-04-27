@@ -1,4 +1,4 @@
-package com.lahssini.bank_account_service.entities;
+package com.kbiri.bank_account_service.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

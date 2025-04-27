@@ -1,10 +1,10 @@
-package com.lahssini.bank_account_service.service;
+package com.kbiri.bank_account_service.service;
 
-import com.lahssini.bank_account_service.dto.BankAccountRequestDTO;
-import com.lahssini.bank_account_service.dto.BankAccountResponseDTO;
-import com.lahssini.bank_account_service.entities.BankAccount;
-import com.lahssini.bank_account_service.mappers.AccountMapper;
-import com.lahssini.bank_account_service.repositories.BankAccountRepository;
+import com.kbiri.bank_account_service.dto.BankAccountRequestDTO;
+import com.kbiri.bank_account_service.dto.BankAccountResponseDTO;
+import com.kbiri.bank_account_service.entities.BankAccount;
+import com.kbiri.bank_account_service.mappers.AccountMapper;
+import com.kbiri.bank_account_service.repositories.BankAccountRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -1,7 +1,7 @@
-package com.lahssini.bank_account_service.mappers;
+package com.kbiri.bank_account_service.mappers;
 
-import com.lahssini.bank_account_service.dto.BankAccountResponseDTO;
-import com.lahssini.bank_account_service.entities.BankAccount;
+import com.kbiri.bank_account_service.dto.BankAccountResponseDTO;
+import com.kbiri.bank_account_service.entities.BankAccount;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 
